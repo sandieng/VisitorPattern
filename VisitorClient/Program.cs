@@ -7,6 +7,9 @@ namespace VisitorClient
     {
         static void Main(string[] args)
         {
+            // Represent an operation to be performed on the elements of an object structure. 
+            // Visitor lets you define a new operation without changing the classes of the elements on which it operates.
+
             var person = new Person();
             person.Assets.Add(new BankAccount { Amount = 1000, MonthlyInterest = 0.01 });
             person.Assets.Add(new BankAccount { Amount = 2000, MonthlyInterest = 0.02 });
