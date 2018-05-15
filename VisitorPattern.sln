@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{956C3866-37AF-4299-8078-B088EF1AB11E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorClient", "VisitorClient\VisitorClient.csproj", "{646C1B29-BEC6-43B9-9F11-D32FFA6C0386}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{00C035B1-DD2C-4317-B48C-F4FDA3D7522F}"
+	ProjectSection(SolutionItems) = preProject
+		Visitor UML.PNG = Visitor UML.PNG
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{956C3866-37AF-4299-8078-B088EF1AB11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956C3866-37AF-4299-8078-B088EF1AB11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956C3866-37AF-4299-8078-B088EF1AB11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956C3866-37AF-4299-8078-B088EF1AB11E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646C1B29-BEC6-43B9-9F11-D32FFA6C0386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646C1B29-BEC6-43B9-9F11-D32FFA6C0386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646C1B29-BEC6-43B9-9F11-D32FFA6C0386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646C1B29-BEC6-43B9-9F11-D32FFA6C0386}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B26A9166-F5EE-466D-80C3-67A8120DF86D}
+	EndGlobalSection
+EndGlobal
